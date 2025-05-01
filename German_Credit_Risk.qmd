@@ -2,9 +2,10 @@
 title: Task 5
 subtitle: Predicting Credit Risk using Decision Trees on the German Credit Dataset.
 author:
+  - Dhruvrajsinh Kosamia [2497244]
   - Hard Joshi [2512658]
   - Shyam Jagani [2611208]
-date: '2025-04-10'
+date: '2025-05-01'
 execute:
   freeze: true
 format: 
@@ -200,7 +201,7 @@ df.info()
 ```{python}
 #| colab: {base_uri: https://localhost:8080/, height: 300}
 '''Get basic statistics for numerical columns (count, mean, standard deviation, min, max, percentiles).
-Get a feel about the range and distribution of Age, Credit Amount, Duration?
+Get a feel about the range and distribution of Age, Credit Amount, Duration.
 Are there any surprising values (e.g., negative age)?'''
 
 df.describe()
